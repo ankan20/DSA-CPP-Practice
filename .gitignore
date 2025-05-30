@@ -1,0 +1,33 @@
+# Ignore object files and compiled binaries
+*.o
+*.out
+*.exe
+
+# Ignore build directories
+/build/
+bin/
+Debug/
+Release/
+
+# Ignore system or IDE-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
+
+# CLion/JetBrains IDE
+.idea/
+
+# Mac OS generated files
+*.DS_Store
+
+# Windows generated files
+*.obj
+*.dll
+*.pdb
+
+# Backup files
+*~
+*.swp
+*.swo
